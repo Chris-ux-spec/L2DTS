@@ -1,2 +1,64 @@
-{}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif
+}
   
+body {
+    background:#f4f4f4;
+    color:#333;
+}
+
+header {
+    background:#0038A8;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+nav {
+    margin-top:15px;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover {
+    color:FFD700;
+}
+
+.her {
+    background:#0077cc;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+section {
+    padding:40px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.card hover{
+    transform:scale(1.03);
+    transition:.3s
+}
+
+footer{
+    background:#0038A8;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
